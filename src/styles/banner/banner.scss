@@ -1,0 +1,64 @@
+.banner {
+  height: 60%;
+  width: 100%;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+
+.banner__content {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .banner__mini-container {
+    width: 40%;
+  }
+}
+
+.banner__title {
+  color: white;
+  font-size: 10rem;
+}
+
+.banner__button-play {
+  width: 20rem;
+  height: 4rem;
+  border: none;
+  background-color: white;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-right: 0.5rem;
+  &:hover {
+    background-color: darken($color: white, $amount: 5);
+  }
+}
+.banner__icono {
+  height: 2rem;
+  margin-right: 0.8rem;
+}
+
+.banner__button-list {
+  width: 20rem;
+  height: 4rem;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  &:hover {
+    background-color: darken($color: gray, $amount: 5);
+  }
+}
+
+.banner__description {
+  color: white;
+  font-size: 1.8rem;
+}

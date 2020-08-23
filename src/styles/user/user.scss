@@ -1,0 +1,30 @@
+.user__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20rem;
+}
+
+.user__title {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.user__img {
+  height: 20rem;
+  margin-bottom: 2rem;
+  &:hover {
+    border: 0.7rem solid white;
+  }
+}
+
+.user__name {
+  color: darken($color: gray, $amount: 9);
+  text-align: center;
+  &:hover {
+    color: white;
+  }
+}
